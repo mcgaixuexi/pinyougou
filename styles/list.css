@@ -1,0 +1,145 @@
+.sk{
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    padding: 5px 0 0 10px;
+}
+.nav_list li{
+    float: left;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 30px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.nav_con{
+    margin-left: 50px;
+    line-height: 45px;
+}
+.nav_con li{
+    font-size: 14px;
+    float: left;;
+    margin: 0 20px;
+}
+.nav_con a{
+    font-weight: 500;
+    font-family: 'icomoon';
+}
+.sk_con_bd{
+    margin-top: 26px;
+}
+.sk_con_bd ul{
+    width: 1300px;
+}
+.sk_con_bd li{
+    width: 288px;
+    height: 458px;
+    border: 1px solid transparent;
+    margin: 0 14px 25px 0;
+}
+.sk_con_bd li:hover{
+    border: 1px solid #e12228;
+}
+.sk_goods{
+    position: relative;
+}
+.sk_goods img{
+    margin: 20px 40px;
+}
+.sk_goods_title{
+    padding-left: 12px;
+}
+.sk_goods_price em{
+    color: #e60012;
+    font-size: 22px;
+}
+.sk_goods del{
+    color: #a4a4a4;
+    font-size: 14px;
+}
+.sk_goods_price{
+    padding-left: 10px;
+}
+.sk_goods_progress{
+    margin: 10px 10px 0;
+    height: 30px;
+}
+.sk_goods_progress p,.sk_goods_progress div{
+    float: left;
+    font-size: 14px;
+}
+.sk_goods_bar{
+    width: 135px;
+    height: 12px;
+    margin: 5px 5px 0;
+    border: 1px solid #ed282e;
+    border-radius: 10px;
+}
+.sk_goods_progress em,.sk_goods_progress i{
+    color:#e60012;
+}
+.bar_in{
+    border-radius: 10px;
+    height: 100%;
+    width: 87%;
+    background-color: #ed282e;
+}
+.sk_goods_buy{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    bottom: 0;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #fff;
+    transition: font-size 0.3s;
+}
+.sk_goods_buy:hover{
+    color: #fff;
+    font-size: 21px;
+}
+.sk_con_bd li{
+    float: left;
+}
+.page{
+    text-align: center;
+    height: 38px;
+    margin: 35px 0;
+}
+.page_num a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    line-height: 38px;
+}
+.page_num .page_pre,.page_num .page_next{
+    width: 83px;
+}
+.page_num .current,.page_num .dotted{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.page_skip input{
+    width: 45px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.page_skip button{
+    width: 70px;
+    height: 36px;
+    border: 1px solid #ccc;  
+    background-color: #f5f5f5;  
+    margin-left: 15px;
+}
+.page_skip{
+    margin-left: 25px;
+}

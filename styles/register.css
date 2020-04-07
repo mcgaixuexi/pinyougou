@@ -1,0 +1,92 @@
+.header{
+	height: 85px;
+	border-bottom: 2px solid #b1191a;
+}
+.content{
+	height: 520px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.content_hd{
+	height: 40px;
+	background-color: #ececec;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.content_hd h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+.content_hd em{
+	font-size: 14px;
+}
+.footer{
+	height: 95px;
+}
+.register{
+	width: 600px;
+	height: 400px;
+	margin: 40px auto 0;
+}
+.inp {
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+}
+.register label{
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	text-align: right;
+}
+.register span{
+	margin-left: 10px;
+}
+.right{
+	color: #40b83f;
+}
+.right_icon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 15px;
+	margin-top: -2px;
+	background: url('../img/checked.png') no-repeat;
+}
+.safe{
+	padding-left: 187px;
+	color: #bebebe;
+}
+.safe em{
+	padding: 0 12px;
+	color: #fff;
+}
+.ruo{
+	background-color: #de1111;
+}
+.zhong{
+	background-color: #f79100;
+}
+.qiang{
+	background-color: #40b83f;
+}
+.agree{
+	padding-left: 115px;
+}
+.agree a{
+	color: #1ba1e6;
+}
+.register_sure{
+	width: 200px;
+	height: 34px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	border: none;
+	margin: 15px 0 0 130px;
+	cursor: pointer;
+}
+

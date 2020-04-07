@@ -1,0 +1,260 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?7kkyc2');
+	src: url('../fonts/icomoon.eot?7kkyc2') format('embedded-opentype'),
+	url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+	url('../fonts/icomoon.svg?7kkyc2') format('svg');
+	font-weight:normal;
+	font-style: normal;
+}
+.fr .icomoon{
+	font-family: icomoon;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.style-red{
+	color: #c81623;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.shortcut{
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+.shortcut li{
+	float:left;
+}
+.spacers{
+	width:1px;
+	height: 12px;
+	background-color:#666;
+	margin:9px 12px 0;
+}
+.header{
+	height: 105px;
+	position: relative;
+}
+.logo{
+	width: 178px;
+	height: 59px;
+	top: 25px;
+	left: 0;
+	position: absolute;
+}
+.logo a{
+	width: 178px;
+	height: 59px;
+	display: block;
+	font-size: 0;
+	background: url(../img/logo.png) no-repeat;
+}
+.search{
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.text{
+	width: 445px;
+	height: 32px;
+	color: #ccc;
+	padding-left: 10px;
+	border: 2px solid #b1191a;
+	float: left;
+}
+.btn{
+	width: 82px;
+	height: 36px;
+	float: left;
+	background-color: #b1191a;
+	border: none;
+	color: #f6eaea;
+	font-size: 17px;
+}
+.hotwords{
+	position: absolute;
+	top:65px;
+	left:348px;
+}
+.hotwords a{
+	margin: 0 12px;
+}
+.shopcar{
+	width: 139px;
+	height: 35px;
+	background-color: #f7f7f7;
+	position: absolute;
+	top: 25px;
+	right: 63px;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #dfdfdf;
+	
+}
+.shopcar a{
+	display: block;
+}
+.car {
+	font-family: 'icomoon';
+	color: #d84b4b;
+}
+.arrow{
+	font-family:'icomoon'; 
+}
+.count{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top:-5px;
+	left: 100px;
+	line-height: 16px;
+	background-color: #e60012;
+	color: #fff;
+	border-radius: 7px 7px 7px 0;
+}
+.nav_container {
+  border-bottom: 2px solid #b1191a;
+}
+.nav{
+	height: 45px;
+}
+.drowdown{
+	width: 209px;
+	height: 45px;
+	background-color: #b1191a;
+}
+.drowdown .dt{
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.dd i{
+	font-family: 'icomoon';
+}
+.drowdown .dd{
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+.dd ul li{
+	height: 33px;
+	line-height: 33px;
+	padding-left: 1px;
+	position: relative;
+	color: #fff;
+	padding-left: 10px;
+}
+.dd ul li a:hover{
+	font-size: 15px;
+}
+.dd ul li a{
+	transition: font-size 0.4s;
+	font-size: 14px;
+	color: #fff;
+}
+.dd ul li:hover{
+	background-color:#b1191a;
+	
+
+}
+.dd ul li i{
+	position: absolute;
+	right: 7px;
+}
+.naviitems li{
+	float: left;
+}
+.naviitems li a{
+	display: block;
+	height: 45px;
+	line-height: 45px;;
+	padding-left: 52px;
+	font-size: 15px;
+}
+.footer{
+	height: 386px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+.mod_service{
+	height: 79px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_service li{
+	width: 240px;
+	float: left;
+}
+.mod_service_icon{
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat ;
+	margin-left: 35px;
+}
+.mod_service_zheng{
+	background-position: -253px -3px;
+}
+.mod_service_kuai{
+	background-position: -255px -54px;
+}
+.mod_service_bao{
+	background-position: -255px -106px;
+}
+.mod_service_te{
+	background-position: -257px -156px;
+}
+.mod_service_bang{
+	background-position: -258px -209px;
+}
+.mod_service_tit{
+	margin-top:10px;
+	margin-left:91px;
+}
+.mod_help{
+	height: 187px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_help_items{
+	width: 150px;
+	padding-top:20px;
+	padding-left: 50px;
+	float: left;
+}
+.mod_help_items dt{
+	height: 25px;
+	line-height: 16px;
+	font-size: 16px;
+}
+.mod_help_items dd{
+	padding-top: 3px;
+}
+.mod_help_items_app dt{
+	margin:0 5px 5px;
+}
+.mod_help_items_app p{
+	margin:10px 5px 0;
+}
+.mod_help_items_app img{
+	margin:-10px -7px;
+}
+.mod_copyright{
+	text-align:center;
+}
+.mod_copyright_links{
+	margin: 5px 0;
+}
+.mod_copyright_links a{
+	margin: 0 10px;
+}
